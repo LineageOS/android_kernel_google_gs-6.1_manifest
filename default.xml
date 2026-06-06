@@ -73,6 +73,8 @@
     <linkfile dest=".d10.bazelrc" src="google/comet/device.bazelrc" />
     <linkfile dest="build_tegu.sh" src="google/tegu/build_tegu.sh" />
     <linkfile dest=".d11.bazelrc" src="google/tegu/device.bazelrc" />
+    <linkfile dest="build_stallion.sh" src="build_stallion.sh" />
+    <linkfile dest=".d16.bazelrc" src="device.bazelrc" />
   </project>
   <project path="private/google-modules" name="LineageOS/android_kernel_google_gs-6.1_google-modules" />
 </manifest>
