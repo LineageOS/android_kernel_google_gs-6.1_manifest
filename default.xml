@@ -16,7 +16,7 @@
 
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" remote="aosp" />
   <project path="build/kernel" name="kernel/build" remote="aosp" />
-  <project path="common/gki" name="kernel/common" remote="aosp" revision="refs/tags/android14-6.1-2025-12_r30">
+  <project path="common/gki" name="kernel/common" remote="aosp" revision="refs/tags/android14-6.1-2026-03_r24">
     <linkfile dest="common/build.config.constants" src="build.config.constants" />
     <linkfile dest="common/modules.bzl" src="modules.bzl" />
     <linkfile dest=".clang-format" src=".clang-format" />
